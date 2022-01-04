@@ -4,16 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aleksey Ivanov</title>
 </head>
 <body>
-    <h1>Aleksey Ivanov</h1>
-    <div>  Aleksey Ivanov
-        <ul>Contacts:</ul>
-       <li>Tel +375 44 5060888 </li>
-        <li>GitHub lucefer4a</li> 
-        <li>EMAIL leshqalol@gmail.com</li> 
-        <span>i have dog, his name JOY Casino</span> 
-    </div>
+    <header class="header">
+        <div class="container header-container">
+          <nav class="nav">
+            <ul class="nav-list">          
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+              <img src="./rsschool-cv/assets/img/avatar.jpg" alt="avatar" class="section-profile-logo">
+              <div class="section-profile-title">
+                <h1 class="section-title main-title">Aleksey Ivanov</h1>
+                <h3 class="section-subtitle">Junior Front-End Developer</h3>
+              </div>        
+            </section>
+            <section class="section" id="contacts">
+                <h3 class="main-section-header">Contacts</h3>
+                <div class="section-content">
+                    <ul class="section-list">
+                        <li>Belarus, Bobruisk</li>
+                        <li>Email: <a href="mailto:leshqalol@gmail.com" title="email">leshqalol@gmail.com</a></li>
+                        <li>Telegram: <a href="https://t.me/etozhelewa" title="Telegram">@etozhelewa</a></li>
+                        <li>Github: <a href="https://github.com/lucefer4a"title="Github">lucefer4a</a></li>
+                    </ul>
+                </div>
+            </section>
+             <section class="section" id="about">
+                <h3 class="main-section-header">ABOUT</h3>
+                <div class="section-content">
+                    <p>Working at a factory as a chemical engineer, I realized that something needed to be changed in life. And I decided to try the preparatory course. The study is not very easy, but I hope everything will work out!</p>
+                </div>
+            </section>
+            <section class="section section-profile" id="education">
+                <h3 class="main-section-header">EDUCATION</h3>
+                <div class="section-content">
+                    <span id="university">Francisk Skorina Gomel State University   </span>
+                    <span>Faculty of Biology </span>
+                </div>
+            </section>
+            <section class="section section-english" id="languages">
+                <h3 class="main-section-header">Languages</h3>
+                <div class="section-content">
+                    <h4>Russian</h4>
+                    <p>native speaker</p>
+                    <h4>Belarusian</h4>
+                    <p>intermediate</p>
+                    <h4>English</h4>
+                    <p>beginner</p>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h3 class="main-section-header">Courses</h3>
+                <div class="section-content">
+                    <li class="section-item">
+                        Udemy<span> - Тестирование ПО для начинающих </span>
+                    </li>
+                    <li class="section-item">RS-school<span> - JS/Frontend-разработка. Подготовительный этап</span>
+                    </li>
+                 </div>      
+            </section>
+            <section class="section" id="skills">
+                <h3 class="main-section-header">Skills</h3>
+                <div class="section-content">
+                    <li class="section-item">
+                        Web-development: <span> HTML5, CSS</span>
+                    </li>
+                    <li class="section-item">
+                        Version control: <span> GITHUB</span>
+                    </li>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h3 class="main-section-header">Code</h3>
+                <div class="section-content">
+                    <code> function greet () 
+                        {
+                        return "hello world!"
+                      }
+                    </code>
+                </div>
+            </section>
+        </div>                   
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div><a href="https://rs.school/js/" title="rs-school"><img src="rsschool-cv/assets/svg/rs.png" height="37" alt="rsschool logo"></a></div>
+            <div>2021</div>
+            <div><a href="https://github.com/lucefer4a"  title="github">A.Ivanov</a></div>
+        </div>
+      </footer>
 </body>
 </html>
